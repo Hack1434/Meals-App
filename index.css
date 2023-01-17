@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+
+   width:95%;
+   background-color:lightcyan;
+   color:midnightblue;
+   background-size: 100%;
+  
+/*   background-image: url("https://media.istockphoto.com/id/516401834/photo/authentic-chicken-biryani-with-onion-raita.jpg?s=612x612&w=0&k=20&c=wxB5KbJAMsnph4CscPjAUSYJjymFqeJ9eGc0ATfgLyE=");*/
+}
+/*heading section*/
+#heading{
+	margin-top:100px;
+
+}
+
+#nav{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/*search bar*/
+#search-bar {
+	max-width: 600px;
+
+}
+#search-bar input{
+	height:57px;
+	border-radius: 20px ;
+}
+/* meal items card*/
+#card {
+	background-color:grey;
+	padding:10px;
+	color:black;
+	box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;
+
+}
+
+#card img{
+	border-radius:50%;
+}
+/*meal detail container*/
+#meal-details{
+	width:100%;
+	padding:20px;
+	border-radius:20px;
+	background-color:lightpink;
+
+}
+#meal-header{
+	width:80%;
+	margin:auto;
+
+}
+#meal-thumbnail img{
+	height:245px;
+	width:248px;
+	border-radius:46%;
+}
+#details{
+	
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	font-style:italic;
+}
+
+#meal-instruction{
+	margin:auto;
+	text-align: center;
+
+}
+/*favourites*/
+#favourites-body{
+	background-color:lightskyblue ;
+}
